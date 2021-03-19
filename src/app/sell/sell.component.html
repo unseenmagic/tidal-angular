@@ -1,0 +1,101 @@
+<div class="content row top-info">
+  <div class="left column-6">
+    <h2 class="title">Sell cover</h2>
+    <p class="des">Search for the protocols you want to get protected. Cost may vary +/-0.058 on a weekly basis.</p>
+    <div class="box-wrap mobile-nav-risk">
+      <a href="" class="button actived">Low Risk <i class="icon-down"><img src="/assets/images/icon-down-arrow.png"></i></a>
+    </div>
+  </div>
+  <div class="right fr column-6">
+    <app-account style="display: inline-flex;"></app-account>
+    <div class="potfolio-btn">
+      <a class="button" href="javascript:void(0)" (click)="goToPortfolio()">My Portfolio</a>
+    </div>
+  </div>
+</div>
+<div class="row button-row risk-menu">
+  <div class="box-wrap">
+    <a href="" class="button actived">Low Risk</a>
+    <a href="" class="button un-actived">Medium Risk</a>
+    <a href="" class="button un-actived">High Risk</a>
+  </div>
+</div>
+<div class="row liquid">
+  <div class="box-wrap">
+    <div class="column-8">
+      <div class="column-4">
+        <p class="title">My Liquidity</p>
+        <p class="number">12,000 USDC</p>
+      </div>
+      <div class="column-8 button-box">
+        <span onclick="$('#box-deposit').show();" class="button">Deposit</span>
+        <span onclick="$('#box-withdraw').show();" class="button">Withdraw</span>
+        <span onclick="$('#box-basket').show();" class="button">Basket</span>
+        <span onclick="$('#box-guarantor').show();" class="button">Guarantor</span>
+      </div>
+    </div>
+    <div class="column-2">
+      <p class="title">Premium APY</p>
+      <p class="number">80%</p>
+    </div>
+    <div class="column-2">
+      <p class="title">Token APY</p>
+      <p class="number">1490%</p>
+    </div>
+  </div>
+</div>
+<div class="crypto-list row">
+  <div class="crypto-list-box" style="">
+    <table class="crypto-list-tab" style="width: 100%">
+      <tr class="crypto-list-title">
+        <td class="crypto-list-search-td">
+          <p class="serach-bar" style="background-image: url('/assets/images/icon-search.png')">
+            <span class="light-title">Search</span>
+          </p>
+        </td>
+        <td><strong>Stake Earning</strong><p class="light-title">(APY)</p></td>
+        <td><strong>Guarantor reserve</strong></td>
+        <td><strong>LP reserve</strong><p class="light-title">(leveraged)</p></td>
+        <td><strong>Cover Sold</strong></td>
+        <td><strong>Capital Utilzation</strong></td>
+        <td><strong>Status</strong></td>
+      </tr>
+      <tr class="crypto-list-item">
+        <td class="crypto-list-td-first">
+          <span class="icon"><img src="/assets/images/a1.png"></span>
+          <strong>Aave</strong>
+        </td>
+        <td><span class="number">1.55%</span></td>
+        <td><span class="number">$200,000 / 522 (AAVE)</span></td>
+        <td><span class="number">$15,000,000</span></td>
+        <td><span class="number">$5,000,000</span></td>
+        <td><span class="number">33.33%</span></td>
+        <td><span class="number">Not in Basket</span></td>
+      </tr>
+      <tr class="crypto-list-item">
+        <td class="crypto-list-td-first">
+          <span class="icon"><img src="/assets/images/a4.png"></span>
+          <strong>Compound</strong>
+        </td>
+        <td><span class="number">1.65%</span></td>
+        <td><span class="number">$70,000 / 200 (COMP)</span></td>
+        <td><span class="number">$500,000</span></td>
+        <td><span class="number">$300,000</span></td>
+        <td><span class="number">60.00%</span></td>
+        <td><span class="number">In Basket</span></td>
+      </tr>
+      <tr class="crypto-list-item">
+        <td class="crypto-list-td-first">
+          <span class="icon"><img src="/assets/images/a3.png"></span>
+          <strong>Uniswap</strong>
+        </td>
+        <td><span class="number">1.55%</span></td>
+        <td><span class="number">$50,000 / 2,500 (UNI)</span></td>
+        <td><span class="number">$600,000</span></td>
+        <td><span class="number">$300,000</span></td>
+        <td><span class="number">50.00%</span></td>
+        <td><span class="number">In Basket</span></td>
+      </tr>
+    </table>
+  </div>
+</div>

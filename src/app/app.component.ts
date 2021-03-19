@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tidal-angular';
+
+  key = 'market';
+
+  goTo($event) {
+    this.key = $event.key;
+  }
 }

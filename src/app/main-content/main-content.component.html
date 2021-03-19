@@ -1,0 +1,6 @@
+<app-market *ngIf="key=='market'" (onPortfolio)="goToPortfolio($event)"></app-market>
+<app-buy *ngIf="key=='buy'" (onPortfolio)="goToPortfolio($event)"></app-buy>
+<app-sell *ngIf="key=='sell'" (onPortfolio)="goToPortfolio($event)"></app-sell>
+<app-staking *ngIf="key=='staking'" (onPortfolio)="goToPortfolio($event)"></app-staking>
+<app-claims *ngIf="key=='claims'" (onPortfolio)="goToPortfolio($event)"></app-claims>
+<app-portfolio *ngIf="key=='portfolio'"></app-portfolio>

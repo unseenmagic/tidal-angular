@@ -1,0 +1,94 @@
+<div class="content row top-info">
+  <div class="left column-6">
+    <h2 class="title">Buy cover</h2>
+    <p class="des">Search for the protocols you want to get protected. Cost may vary +/-0.058 on a weekly basis.</p>
+  </div>
+  <div class="right fr column-6">
+    <app-account style="display: inline-flex;"></app-account>
+    <div class="potfolio-btn">
+      <a class="button" href="javascript:void(0)" (click)="goToPortfolio()">My Portfolio</a>
+    </div>
+  </div>
+</div>
+<div class="row pre-deposit">
+  <div class="box-wrap">
+    <div class="column-8">
+      <div class="column-6">
+        <p class="title">My Pre-deposit Balance</p>
+        <p class="number">12,000 USDC</p>
+      </div>
+      <div class="column-6 button-box">
+        <a href="javascript:$('#box-deposit').show();" class="button">Deposit</a>
+        <a href="javascript:$('#box-withdraw').show();" class="button">Withdraw</a>
+      </div>
+    </div>
+    <div class="column-4">
+      <div>
+        <span class="icon"><img src="/assets/images/icon-timer.png"></span>
+      </div>
+      <div>
+        <p class="title">Estimate Coverage Period</p>
+        <p class="number">25 Weeks</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="crypto-list row">
+  <div class="crypto-list-box" style="">
+    <table class="crypto-list-tab" style="width: 100%">
+      <tr class="crypto-list-title">
+        <td class="crypto-list-search-td">
+          <p class="serach-bar" style="background-image: url('/assets/images/icon-search.png')">
+            <span class="light-title">Search</span>
+          </p>
+        </td>
+        <td><strong>Cost</strong><p class="light-title">(weekly)</p></td>
+        <td><strong>Available Cover</strong></td>
+        <td></td>
+        <td><strong>My Covered Amount</strong></td>
+        <td><strong>My Cover Cost</strong></td>
+      </tr>
+      <tr class="crypto-list-item">
+        <td class="crypto-list-td-first">
+          <span class="icon"><img src="/assets/images/a1.png"></span>
+          <strong>Aave</strong>
+        </td>
+        <td><span class="number">0.030%</span></td>
+        <td><span class="number">$350,000</span></td>
+        <td>
+          <span class="icon-button" onclick="$('#box-increase').show();">+</span>
+          <span class="icon-button" onclick="$('#box-reduce').show();">-</span>
+        </td>
+        <td><span class="number">$4,000</span></td>
+        <td><span class="number">$1.2</span></td>
+      </tr>
+      <tr class="crypto-list-item">
+        <td class="crypto-list-td-first">
+          <span class="icon"><img src="/assets/images/a4.png"></span>
+          <strong>Compound</strong>
+        </td>
+        <td><strong>0.032%</strong></td>
+        <td><strong>$270,000</strong></td>
+        <td>
+          <span class="icon-button" onclick="$('#box-increase').show();">+</span>
+          <span class="icon-button" onclick="$('#box-reduce').show();">-</span>
+        </td>
+        <td><strong>$7,000</strong></td>
+        <td><strong>$2.24</strong></td>
+      </tr>
+      <tr class="crypto-list-item">
+        <td class="crypto-list-td-first">
+          <span class="icon"><img src="/assets/images/a5.png"></span>
+          <strong>Balancer</strong>
+        </td>
+        <td><strong>0.030%</strong></td>
+        <td><strong>$10,200,000</strong></td>
+        <td>
+          <span class="button light-button" onclick="$('#box-increase').show();">Enroll</span>
+        </td>
+        <td><strong></strong></td>
+        <td><strong></strong></td>
+      </tr>
+    </table>
+  </div>
+</div>

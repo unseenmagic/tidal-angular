@@ -1,0 +1,17 @@
+<div class="left container sidebar">
+  <div class="logo">
+    <a href="index.html"><img src="/assets/images/logo.png"></a>
+  </div>
+  <div class="side-menu">
+    <ul>
+      <li class="menu-item" [ngClass]="{'actived': key==='market'}"><a href="javascript:void(0)" (click)="goTo('market')">Market</a></li>
+      <li class="menu-item" [ngClass]="{'actived': key==='buy'}"><a href="javascript:void(0)" (click)="goTo('buy')">Buy Cover</a></li>
+      <li class="menu-item" [ngClass]="{'actived': key==='sell'}"><a href="javascript:void(0)" (click)="goTo('sell')">Sell Cover</a></li>
+      <li class="menu-item" [ngClass]="{'actived': key==='staking'}"><a href="javascript:void(0)" (click)="goTo('staking')">Staking</a></li>
+      <li class="menu-item" [ngClass]="{'actived': key==='claims'}"><a href="javascript:void(0)" (click)="goTo('claims')">Claims</a></li>
+    </ul>
+  </div>
+  <div class="copyright">
+    <p>Copyright © Tidal 2021</p>
+  </div>
+</div>

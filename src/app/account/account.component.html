@@ -1,0 +1,22 @@
+<div class="crypto-fund" style="cursor: pointer;" *ngIf="abbrAddress">
+  <div class="eth">
+    <strong>{{ usdcBalance }} USDC</strong>
+  </div>
+  <div class="eth-add">
+    <strong>{{ abbrAddress }}</strong>
+  </div>
+</div>
+
+<div class="crypto-fund" style="cursor: pointer;" (click)="connect()" *ngIf="!abbrAddress">
+  <div class="eth-add">
+    <strong>Connect to MetaMask</strong>
+  </div>
+</div>
+
+<app-alert-message
+  [title]="alertTitle"
+  [body]="alertBody"
+  style="height: 100%; width: 100%; z-index: 1; position: Fixed; top: 0"
+  *ngIf="willShowAlertMessage"
+  (onClose)="closeAlert()">
+</app-alert-message>
